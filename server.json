@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.theluckystrike/irs-mileage-rate-per-diem-mcp",
+  "title": "IRS Mileage Rate and Per Diem",
+  "description": "IRS mileage rates 2011-2026 (76 cents from July 2026), GSA per diem by ZIP FY2026-27, high-low.",
+  "version": "1.0.0",
+  "websiteUrl": "https://taxbreakcalc.com/self-employed-set-aside-calculator/",
+  "repository": {
+    "url": "https://github.com/theluckystrike/irs-mileage-rate-per-diem-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://irs-mileage-rate-per-diem-mcp.lipmichal.workers.dev/mcp"
+    }
+  ]
+}
